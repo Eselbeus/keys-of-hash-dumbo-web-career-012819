@@ -6,13 +6,8 @@ class Hash
     arr = []
     # binding.pry
     arguments.each do |arg|
-      # binding.pry
-      # Hash.new(arg).each do |k, v|
-      #   if v == arg
-      #     arr.push(k)
-      #   end
-      # end
-      arr.push(arg)
+      animal = Hash.keys
+      binding.pry
     end
     return arr
   end
