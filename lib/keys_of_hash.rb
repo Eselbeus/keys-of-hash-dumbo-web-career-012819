@@ -8,6 +8,7 @@ class Hash
     arguments.each do |arg, val|
       # animal = Hash.keys
       # binding.pry
+      
     end
     arguments
     binding.pry
