@@ -10,8 +10,8 @@ class Hash
       # Hash.new(arg).each do |k, v|
       #   if v == arg
       #     arr.push(k)
-        end
-      end
+      #   end
+      # end
     end
     return arr
   end
