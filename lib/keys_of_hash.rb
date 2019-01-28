@@ -12,6 +12,7 @@ class Hash
       #     arr.push(k)
       #   end
       # end
+      arr.push(arg)
     end
     return arr
   end
