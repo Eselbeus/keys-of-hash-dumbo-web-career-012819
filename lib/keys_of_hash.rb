@@ -9,7 +9,7 @@ class Hash
       # animal = Hash.keys
       binding.pry
     end
-    return arr
+    return arguments
   end
 end
 
