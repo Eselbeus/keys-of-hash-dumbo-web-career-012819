@@ -6,12 +6,13 @@ class Hash
     arr = []
     # binding.pry
     self.each do |animal, country|
-      # animal = Hash.keys
-      # binding.pry
-      
+      arguments.each do |place|
+        if place == country
+          arr.push(animal)
+        end
+      end
     end
-    arguments
-    binding.pry
+    arr
   end
 end
 
