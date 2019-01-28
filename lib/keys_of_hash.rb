@@ -9,8 +9,7 @@ class Hash
       # animal = Hash.keys
       # binding.pry
     end
-    final = *arguments
-    final
+    arguments
     binding.pry
   end
 end
