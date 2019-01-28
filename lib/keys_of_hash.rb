@@ -5,7 +5,7 @@ class Hash
     # code goes here
     arr = []
     # binding.pry
-    arguments.each do |arg|
+    arguments.each do |arg, val|
       # animal = Hash.keys
       binding.pry
     end
